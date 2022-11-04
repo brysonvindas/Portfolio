@@ -1,0 +1,75 @@
+/***** basestyles *****/
+.body {
+font-family: 'Source Sans Pro', sans-serif;
+color: #7f7f7f;
+}
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+/***** Header *****/
+header {
+    height: 800px;
+    background: url('../img/arenal.jpg');
+    background-size: cover;
+    background-position: center;
+}
+header h1 {
+    padding: 65px;
+    font-family: 'lora' , bold;
+}
+nav {
+    float: right;
+    padding: 75px 25px;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    font-family: 'Source Sans Pro' , sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    padding-left: 80px;
+}
+/***** About *****/
+#about .full-width {
+    padding: 80px;
+}
+#about h2 {
+    font-family: 'lora' , serif;
+    font-size: 36px;
+}
+#about p {
+    font-size: 21px;    
+    color: #7f7f7f;
+    line-height: 40px;
+}
+/***** WORK *****/
+#work .full-width {
+    padding: 115px 0;
+}
+#work h3 {
+    margin: 0 auto;
+}
+#work p {
+    padding: 0 50px;
+}
+/***** CONTACT  *****/
+#contact {
+    background-color: #7b7b7b;
+}
+#contact .full-width {
+    padding: 110px 0;
+}
